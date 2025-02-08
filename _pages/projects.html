@@ -1,0 +1,85 @@
+---
+layout: archive
+permalink: /projects/
+author_profile: true
+---
+
+<div class="projects-container">
+  {% for page in site.pages %}
+    {% if page.permalink contains "/projects/" and page.title != "Projects" %}
+      <div class="project-item {% if forloop.index0 | modulo: 2 == 0 %}image-left{% else %}image-right{% endif %}">
+        <div class="project-image">
+          <a href="{{ page.url }}">
+            <img src="{{ page.image }}" alt="{{ page.title }}">
+          </a>
+        </div>
+        <div class="project-text">
+          <a href="{{ page.url }}" class="project-title">
+            <h3>{{ page.title }}</h3>
+          </a>
+          <p>{{ page.description }}</p>
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<style>
+/* General container styles */
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px 0;
+}
+
+/* Project item styles */
+.project-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Alternating layout */
+.project-item.image-left {
+  flex-direction: row;
+}
+.project-item.image-right {
+  flex-direction: row-reverse;
+}
+
+/* Image styles */
+.project-image {
+  flex: 1;
+  max-width: 45%;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.project-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.project-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Text styles */
+.project-text {
+  flex: 1;
+  max-width: 50%;
+}
+.project-title {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.2s;
+}
+.project-title:hover {
+  color: #0073e6;
+}
+.project-text p {
+  margin: 10px 0 0;
+  font-size: 0.9em;
+  color: #555;
+}
+</style>

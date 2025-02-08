@@ -9,8 +9,8 @@ main:
     url: /projects/ 
 
   - title: "Resume"
-    url: /resume/ 
+    url: /assets/images/Tina_Resume.pdf
 
-  - title: "About me"
-    url: /about me/     
+  - title: "Other Interests"
+    url: /interest/     
   

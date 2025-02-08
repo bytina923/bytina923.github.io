@@ -24,8 +24,8 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Tina Liu"
-  pronouns         : "she/her"  
-  bio              : "Data Science, Cat Person"
+  #pronouns         : "she/her"  
+  bio              : "Undergraduate in Data Science"
   location         : "Los Angeles, CA"
   employer         : "University of California, San Diego"
   uri              : # URL
@@ -351,3 +351,7 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+collections:
+  pages:
+    output: true
