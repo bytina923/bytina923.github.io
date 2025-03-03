@@ -25,6 +25,6 @@ image: "/assets/images/p1.png"
   <!-- Buttons -->
   <div style="display: flex; gap: 15px; justify-content: center; margin-top: 15px;">
     <a href="https://github.com/yourusername/lol-prediction" target="_blank" style="text-decoration: none; color: white; background-color: #0073e6; padding: 10px 20px; border-radius: 5px; font-size: 0.85em;">GitHub</a>
-    <a href="https://bytina923.github.io/League-of-Legends-Result-Analysis-2024/#0" target="_blank" style="text-decoration: none; color: #333; border: 1px solid #ddd; padding: 10px 20px; border-radius: 5px; font-size: 0.85em;">Report</a>
+    <a href="/assets/images/amazong_rating_report.pdf" target="_blank" style="text-decoration: none; color: #333; border: 1px solid #ddd; padding: 10px 20px; border-radius: 5px; font-size: 0.85em;">Report</a>
   </div>
 </div>
