@@ -24,5 +24,5 @@ image: "/assets/images/youtube2.pdf"
 
 <div style="display: flex; gap: 10px; justify-content: center; margin-top: 10px;">
   <a href="https://github.com/yourusername/youtube-views-predict" target="_blank" style="text-decoration: none; color: white; background-color: #0073e6; padding: 10px 20px; border-radius: 5px; font-size: 0.85em;">GitHub</a>
-  <a href="https://yourwebsite.com/youtube-predict-report" target="_blank" style="text-decoration: none; color: #333; border: 1px solid #ddd; padding: 10px 20px; border-radius: 5px; font-size: 0.85em;">Report</a>
+  <a href="https://drive.google.com/file/d/1tsU_HN81imHecX4bkEFPslnq7fHQHUZP/view" target="_blank" style="text-decoration: none; color: #333; border: 1px solid #ddd; padding: 10px 20px; border-radius: 5px; font-size: 0.85em;">Report</a>
 </div>
