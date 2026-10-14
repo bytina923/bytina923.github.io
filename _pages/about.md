@@ -21,7 +21,7 @@ redirect_from:
 ======
 **University of California, San Diego**  
 📍 *B.S. in Data Science, Minor in Economics*  
-📅 *Expected Graduation: June 2026* 
+📅 *Sept. 2022 - June 2026* 
 - 📊 **Relevant Coursework**: Probabilistic Modeling, Machine Learning, Representation Learning, Deep Learning, Data Structures & Algorithms, Principles and Practice of Data Science, Data Visualization, Data Management, Linear Algebra, Statistics, Econometrics, Optimization
 # - 🔬 **Research**: Efforts underway, to be developed 💪
 
